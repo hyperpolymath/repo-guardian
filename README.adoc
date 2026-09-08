@@ -1,0 +1,33 @@
+= repo-guardian
+// SPDX-License-Identifier: MPL-2.0
+
+[NOTE]
+====
+*Status: scaffold. Not yet implemented.*
+
+This repository was minted on 2026-08-27 and currently contains directory
+structure only — no working code. It is public so the estate's tooling can see
+it, not because it is ready to use. Nothing here should be depended on.
+====
+
+== What this is intended to be
+
+`repo-guardian` is the placeholder for repository-guard tooling in the
+hyperpolymath estate. Two components are scaffolded:
+
+`mcp-repo-guardian`:: intended MCP server surface.
+`repo-guardian-fs`:: intended filesystem-side component.
+
+Neither directory currently holds an implementation.
+
+== Why the banner
+
+Estate policy prefers an honest status banner over a README that describes
+unbuilt features. A README promising behaviour that does not exist is worse
+than an empty repository: it makes hollow scaffolding read as finished work.
+If you are looking for working guard tooling, this is not it yet.
+
+== Licence
+
+MPL-2.0, per `standards/LICENCE-POLICY.adoc` Rule 1 (MPL-2.0 for code,
+CC-BY-SA-4.0 for prose docs).
